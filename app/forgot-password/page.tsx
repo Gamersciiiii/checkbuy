@@ -60,7 +60,7 @@ export default function ForgotPasswordPage() {
               redirectTo,
             }
           );
-
+console.log("Erreur reset password :", error);
       if (resetError) {
         throw resetError;
       }
